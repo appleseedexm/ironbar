@@ -91,4 +91,5 @@ type = "label"
 player_type = "mpris"
 type = "music"
 icons.play = "󰓇 "
+icons.pause = "󰓇 "
 
