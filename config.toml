@@ -10,13 +10,6 @@ position = "bottom"
 #[end.truncate]
 #max_length = 100
 #mode = "end"
-
-#[[end]]
-#host = "chloe:6600"
-#player_type = "mpd"
-#truncate = "end"
-#type = "music"
-
 #[[end]]
 #cmd = "/home/jake/bin/phone-battery"
 #type = "script"
@@ -27,7 +20,7 @@ position = "bottom"
 
 [[end]]
 format = [
-    "CPU {cpu_percent}% | {temp_c:coretemp-Package-id-0}°C",
+    "    CPU {cpu_percent}% | {temp_c:coretemp-Package-id-0}°C",
     "RAM {memory_used} / {memory_total} GB ({memory_percent}%)",
     "DRV {disk_percent:/}% {disk_percent:/home}%",
     "⇅ {net_down:eno2} / {net_up:eno2} Mbps",
@@ -91,5 +84,11 @@ all_monitors = false
 type = "workspaces"
 
 [[start]]
-label = "    asx @ asx-hypr"
+label = "    asx @ asx-hypr    "
 type = "label"
+
+[[start]]
+player_type = "mpris"
+type = "music"
+icons.play = "󰓇 "
+
