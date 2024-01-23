@@ -90,6 +90,6 @@ type = "label"
 [[start]]
 player_type = "mpris"
 type = "music"
-icons.play = "󰓇 "
-icons.pause = "󰓇 "
+icons.play = ""
+icons.pause = ""
 
