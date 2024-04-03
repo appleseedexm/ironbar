@@ -37,7 +37,7 @@
 	background-color: @onedark_bg_50_color;
 	color: @onedark_green_color;
 	font-weight: 900;
-	font-size: 14px;
+	font-size: 10px;
     font-family: Fira Mono Nerd Font, sans-serif;
 	/*border-bottom: 2px solid transparent;*/
 	/*border-image: linear-gradient(to bottom right, @onedark_red_color, @onedark_orange_color, @onedark_yellow_color, @onedark_green_color, @onedark_cyan_color, @onedark_blue_color, @onedark_indigo_color, @onedark_violet_color) 1;*/
@@ -52,38 +52,41 @@
 }
 
 .workspaces {
+    font-size: 10px;
+    padding: 0px 0px;
+    margin: 0px 0px;
 }
+/*.workspaces .item {*/
+	/*background-color: @onedark_green_color;*/
+	/*color: @onedark_bg_color;*/
+	/*[>border-radius: 5px;<]*/
+	/*margin: 2px;*/
+	/*margin-top: 0px;*/
+	/*margin-bottom: 0px;*/
+    /*padding: 0px 0px;*/
+/*}*/
 .workspaces .item {
-	font-size: 11px;
-	padding: 0px 3px;
-	background-color: @onedark_green_color;
-	color: @onedark_bg_color;
-	/*border-radius: 5px;*/
-	margin: 2px;
-	margin-top: 10px;
-	margin-bottom: 10px;
 }
 .workspaces .item.visible {
-	background-color: @onedark_green_50_color;
-	color: @onedark_bg_color;
-	font-size: 11px;
+    background-color: @onedark_green_50_color;
+    color: @onedark_bg_color;
 }
-.workspaces .item:hover {
-	background-color: @onedark_blue_color;
-	color: @onedark_bg_color;
-	font-size: 14px;
-	border-bottom: 2px solid @onedark_blue_color;
-	border-right: 2px solid @onedark_blue_color;
-	margin-bottom: 3px;
-	margin-right: 0px;
-}
+/*.workspaces .item:hover {*/
+	/*background-color: @onedark_indigo_color;*/
+    /*padding: 0px 0px;*/
+	/*color: @onedark_bg_color;*/
+	/*font-size: 10px;*/
+	/*border-bottom: 0px solid @onedark_indigo_color;*/
+	/*border-right: 0px solid @onedark_indigo_color;*/
+	/*margin-bottom: 0px;*/
+	/*margin-right: 0px;*/
+/*}*/
 .popup {
 	background-color: @onedark_bg_50_color;
 	color: @onedark_fg_color;
-	border: 2px solid @onedark_blue_50_color;
-	border-radius: 5px;
-	padding: 5px;
-
+	border: 0px solid @onedark_blue_50_color;
+	border-radius: 0px;
+	padding: 0px;
 }
 /*.workspaces .item:nth-child(1) {*/
 	/*background-color: @onedark_red_color;*/

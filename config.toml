@@ -1,6 +1,7 @@
 anchor_to_edges = true
 icon_theme = "Paper"
 position = "bottom"
+height = 10
 
 #[[end]]
 #music_dir = "/home/jake/Music"
