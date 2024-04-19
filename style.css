@@ -35,8 +35,8 @@
 
 #bar {
 	background-color: @onedark_bg_50_color;
-	color: @onedark_green_color;
-	font-weight: 900;
+	color: @onedark_green_50_color;
+    font-weight: 900;
 	font-size: 10px;
     font-family: Fira Mono Nerd Font, sans-serif;
 	/*border-bottom: 2px solid transparent;*/
@@ -68,8 +68,8 @@
 .workspaces .item {
 }
 .workspaces .item.visible {
-    background-color: @onedark_green_50_color;
-    color: @onedark_bg_color;
+    /*background-color: @onedark_green_50_color;*/
+    color: @onedark_green_color;
 }
 /*.workspaces .item:hover {*/
 	/*background-color: @onedark_indigo_color;*/
