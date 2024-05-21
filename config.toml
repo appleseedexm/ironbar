@@ -21,10 +21,10 @@ height = 10
 
 [[end]]
 format = [
-    "    CPU {cpu_percent}% | {temp_c:coretemp-Package-id-0}°C",
+    "    CPU {cpu_percent}%",
     "RAM {memory_used} / {memory_total} GB ({memory_percent}%)",
-    "DRV {disk_percent:/}% {disk_percent:/home}%",
-    "⇅ {net_down:eno2} / {net_up:eno2} Mbps",
+    "DRV {disk_percent:/}%",
+    "⇅ {net_down:enp0s1} / {net_up:enp0s1} Mbps",
     "AVG {load_average:1} | {load_average:5} | {load_average:15}",
     "UP {uptime}",
 ]
@@ -80,12 +80,12 @@ type = "label"
 [[end]]
 type = "clock"
 
-[[start]]
-all_monitors = false
-type = "workspaces"
+#[[start]]
+#all_monitors = false
+#type = "workspaces"
 
 [[start]]
-label = "    asx @ asx-hypr    "
+label = "    asx @ asx-mbp    "
 type = "label"
 
 [[start]]
